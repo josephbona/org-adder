@@ -46,6 +46,7 @@ input {
   width: 100%;
   border: 0;
   padding: 15px;
+  font-size: 16px;
 }
 button {
   font-family: "Roboto", sans-serif;
