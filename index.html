@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add To Organization</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="box">
+    <div style="display: none" class="message"></div>
+    <form id="add-form" class="form">
+      <h2>Add To fsa-alumni</h2>
+      <p><a id="auth-button" class="button" href="#">first, click to authenticate as admin</a></p>
+      <div class="input-icon-wrap">
+        <span class="input-icon">@</span>
+        <input type="text" name="username" class="input-with-icon" placeholder="github_username">
+      </div>
+      <button type="submit">submit</button>
+    </form>
+  </div>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
